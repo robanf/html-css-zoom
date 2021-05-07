@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+header div{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+main{
+    overflow: auto;
+    height: 80%;
+    width: 100%;
+}
+
+.cam{
+    position: relative;
+    display: inline-block;
+    width: calc(100%/6);
+    height: auto;
+}
+
+
