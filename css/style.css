@@ -28,7 +28,7 @@ header div{
 
 main{
     overflow:auto;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 152px);
     width: auto;
     display: flex;
     flex-wrap: wrap;
@@ -57,9 +57,71 @@ main{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* FOOTER */
+
 footer{
-    height: 100px;
-    width: 100%;
-    background-color: chartreuse;
     display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color:#222222;
+    color: white;
 }
+
+footer > div{
+    
+    height: 100%;
+}
+
+footer .left{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex-shrink: 1;
+}
+
+footer .right{
+    display: flex;
+    width: 150px;
+    flex-shrink: 1;
+}
+
+footer .center{
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    flex-grow: 4;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width:100px;
+}
+
+.icone{
+    font-size: 35px;
+}
+
+.item span{
+    font-size: 18px;
+}
+
+.freccia{
+    align-self:center;
+}
+
+
+.quit{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: red;
+    display: inline-block;
+    
+}
+
