@@ -14,6 +14,7 @@ header{
     color: white;
     justify-content: flex-end;
     margin: 5px;
+    
 }
 
 header div{
@@ -26,9 +27,9 @@ header div{
 }
 
 main{
-    overflow: auto;
-    height: 80%;
-    width: 100%;
+    overflow:auto;
+    height: calc(100vh - 180px);
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -56,3 +57,9 @@ main{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+}
