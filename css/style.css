@@ -77,20 +77,21 @@ footer .left{
     display: flex;
     justify-content: space-between;
     width: 200px;
-    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 footer .right{
     display: flex;
     width: 150px;
-    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 footer .center{
     display: flex;
     justify-content: center;
-    padding: 15px 10px;
-    flex-grow: 4;
+    padding: 10px 10px;
+    flex-grow: 20;
+    
 }
 
 .item{
@@ -107,9 +108,17 @@ footer .center{
     font-size: 35px;
 }
 
-.item span{
-    font-size: 18px;
+
+.verde{
+    color: green;
 }
+
+.item span{
+    font-size: 16px;
+    text-align: center;
+}
+
+
 
 .freccia{
     align-self:center;
@@ -119,9 +128,11 @@ footer .center{
 .quit{
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
     color: red;
     display: inline-block;
-    
+    padding: 30px 30px;
+    padding-right: 0px;
+    padding-top: 41px;
 }
 
