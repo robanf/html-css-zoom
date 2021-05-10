@@ -58,7 +58,7 @@ main{
 }
 
 /* FOOTER */
-
+/* 
 footer{
     display: flex;
     justify-content: space-between;
@@ -136,3 +136,43 @@ footer .center{
     padding-top: 41px;
 }
 
+ */
+
+ footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+ }
+
+ .left, .center, .right{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 80%;
+}
+
+
+.icone i{
+    font-size: 28px;
+}
+
+.verde i{
+    color: green;
+}
+
+
+.quit{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #4A4A4A;
+    color: red;
+    line-height: 100px;
+}
